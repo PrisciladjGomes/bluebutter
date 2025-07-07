@@ -371,7 +371,7 @@ body {
 /* Segunda linha: cards 5-8 */
 
 /* Responsividade para tablets */
-@media (max-width: 380px) {
+@media (max-width: 480px) {
     .benefits-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -395,7 +395,7 @@ body {
 }
 
 /* Responsividade para mobile */
-@media (max-width: 380px) {
+@media (max-width: 480px) {
     .benefits-grid {
         grid-template-columns: 1fr;
     }
@@ -1355,7 +1355,7 @@ body {
 }
 
 /* Responsividade */
-@media (max-width: 380px) {
+@media (max-width: 480px) {
     .nav-menu {
         display: none;
         position: absolute;
@@ -1428,7 +1428,7 @@ body {
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 480px) {
     .hero-title {
         font-size: 2rem;
     }
@@ -1834,7 +1834,7 @@ html {
 }
 
 /* Responsividade do Footer */
-@media (max-width: 380px) {
+@media (max-width: 480px) {
     .footer {
         padding: 3rem 0 1.5rem;
     }
@@ -1967,7 +1967,7 @@ html {
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 480px) {
     .hero-title {
         font-size: 2rem;
     }
@@ -2232,7 +2232,7 @@ html {
 }
 
 /* Responsive adjustments for testimonials */
-@media (max-width: 380px) {
+@media (max-width: 480px) {
     .testimonials-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
@@ -2286,7 +2286,7 @@ html {
 }
 
 /* Responsividade para o banner */
-@media (max-width: 380px) {
+@media (max-width: 480px) {
     .banner-content {
         font-size: 0.875rem;
     }
