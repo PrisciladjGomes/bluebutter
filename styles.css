@@ -7,7 +7,7 @@
 
 /* Variáveis CSS */
 :root {
-    --purple-primary: #b2d1fa;
+    --purple-primary: #bfa2db;
     --purple-secondary: #8d5da0;
     --purple-light: #ded3ea;
     --beige-light: #f7f6f3;
@@ -46,7 +46,7 @@ body {
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #a5ccff 0%, #cb88e6 70%, #a972be 95%);
+  background: linear-gradient(135deg, #bfa2db 0%, #8d5da0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -371,7 +371,7 @@ body {
 /* Segunda linha: cards 5-8 */
 
 /* Responsividade para tablets */
-/*@media (max-width: 1024px) {*/
+@media (max-width: 768px) {
     .benefits-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -392,9 +392,10 @@ body {
         justify-self: center;
         max-width: 300px;
     }
+}
 
 /* Responsividade para mobile */
-/*@media (max-width: 768px) {*/
+@media (max-width: 768px) {
     .benefits-grid {
         grid-template-columns: 1fr;
     }
@@ -407,7 +408,7 @@ body {
         justify-self: stretch;
         max-width: none;
     }
-
+}
 
 .benefit-card {
     background-color: rgba(255, 255, 255, 0.9);
@@ -1354,7 +1355,7 @@ body {
 }
 
 /* Responsividade */
-/*@media (max-width: 768px) {*/
+@media (max-width: 768px) {
     .nav-menu {
         display: none;
         position: absolute;
@@ -1425,9 +1426,9 @@ body {
         grid-template-columns: 1fr;
         text-align: center;
     }
+}
 
-
-/*@media (max-width: 480px) {*/
+@media (max-width: 768px) {
     .hero-title {
         font-size: 2rem;
     }
@@ -1459,7 +1460,7 @@ body {
     .offer-title {
         font-size: 1.75rem;
     }
-
+}
 
 /* Animações */
 @keyframes fadeInUp {
@@ -1833,7 +1834,7 @@ html {
 }
 
 /* Responsividade do Footer */
-/*@media (max-width: 768px) {*/
+@media (max-width: 768px) {
     .footer {
         padding: 3rem 0 1.5rem;
     }
@@ -1858,12 +1859,12 @@ html {
     .footer-social {
         justify-content: center;
     }
-
+}
 
 
 
 /* Responsive Design */
-/*@media (max-width: 768px) {*/
+@media (max-width: 768px) {
     .container {
         padding: 0 1rem;
     }
@@ -1964,8 +1965,9 @@ html {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
+}
 
-/*@media (max-width: 480px) {*/
+@media (max-width: 768px) {
     .hero-title {
         font-size: 2rem;
     }
@@ -1993,7 +1995,7 @@ html {
     .exclusive-benefit, .offer-feature {
         padding: 1rem;
     }
-
+}
 
 /* Enhanced Animations */
 @keyframes fadeInUp {
@@ -2096,7 +2098,7 @@ html {
 }
 
 /* Print Styles */
-/*@media print {*/
+@media print {
     .header,
     .nav,
     .rolling-banner,
@@ -2113,7 +2115,7 @@ html {
     .section {
         page-break-inside: avoid;
     }
-
+}
 
 
 /* Testimonials Section */
@@ -2154,7 +2156,7 @@ html {
 .testimonial-card:hover {
     transform: translateY(-8px) scale(1.02);
     box-shadow: 0 20px 40px rgba(191, 162, 219, 0.25);
-    background: #d4e7ff
+    background: rgb(235, 230, 255);
 }
 
 .testimonial-content {
@@ -2230,7 +2232,7 @@ html {
 }
 
 /* Responsive adjustments for testimonials */
-/*@media (max-width: 768px) {*/
+@media (max-width: 768px) {
     .testimonials-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
@@ -2243,7 +2245,7 @@ html {
     .testimonial-text {
         font-size: 0.95rem;
     }
-
+}
 
 
 /* Banner Rotativo */
@@ -2284,7 +2286,7 @@ html {
 }
 
 /* Responsividade para o banner */
-/*@media (max-width: 768px) {*/
+@media (max-width: 768px) {
     .banner-content {
         font-size: 0.875rem;
     }
@@ -2292,7 +2294,7 @@ html {
     .banner-content span {
         margin-right: 2rem;
     }
-
+}
 
 .hero-title {
   font-size: 3rem;
@@ -2629,83 +2631,3 @@ html {
   flex-wrap: wrap;
 }
 
-.special-promo-roxa {
-  background: #f8f5fc;
-  padding: 5rem 1rem;
-  display: flex;
-  justify-content: center;
-}
-
-.promo-box {
-  background: linear-gradient(135deg, #bfa2db, #8d5da0);
-  color: white;
-  border-radius: 2rem;
-  padding: 3rem 2rem;
-  max-width: 1000px;
-  width: 100%;
-  text-align: center;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
-}
-
-.promo-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-.promo-subtitle {
-  font-size: 1.2rem;
-  margin-bottom: 3rem;
-  opacity: 0.95;
-}
-
-.promo-features {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  margin-bottom: 2.5rem;
-}
-
-.promo-feature {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 1rem;
-  padding: 1.5rem;
-  min-width: 200px;
-  flex: 1 1 220px;
-  backdrop-filter: blur(6px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.promo-feature h3 {
-  font-size: 1.1rem;
-  margin-top: 1rem;
-  font-weight: 600;
-}
-
-.promo-feature p {
-  font-size: 0.9rem;
-  opacity: 0.9;
-}
-
-.promo-icon {
-  font-size: 2rem;
-}
-
-.btn-promo {
-  background: white;
-  color: #8d5da0;
-  padding: 1rem 2rem;
-  font-weight: 600;
-  font-size: 1.1rem;
-  border: none;
-  border-radius: 1rem;
-  cursor: pointer;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  transition: all 0.3s ease;
-}
-
-.btn-promo:hover {
-  background: #f4f0fa;
-  transform: scale(1.05);
-}
