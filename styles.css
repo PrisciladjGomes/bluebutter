@@ -371,7 +371,7 @@ body {
 /* Segunda linha: cards 5-8 */
 
 /* Responsividade para tablets */
-/*@media (max-width: 1024px) {*/
+@media (max-width: 1024px) {
     .benefits-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -392,13 +392,11 @@ body {
         justify-self: center;
         max-width: 300px;
     }
-
+}
 
 /* Responsividade para mobile */
-/*@media (max-width: 768px) {*/
-    .benefits-grid {
-        grid-template-columns: 1fr;
-    }
+@media (max-width: 768px) {
+
     
     .benefit-card:nth-child(5),
     .benefit-card:nth-child(6),
@@ -408,7 +406,7 @@ body {
         justify-self: stretch;
         max-width: none;
     }
-
+}
 
 .benefit-card {
     background-color: rgba(255, 255, 255, 0.9);
@@ -1355,7 +1353,7 @@ body {
 }
 
 /* Responsividade */
-/*@media (max-width: 768px) {*/
+@media (max-width: 768px) {
     .nav-menu {
         display: none;
         position: absolute;
@@ -1398,24 +1396,10 @@ body {
         gap: 1rem;
     }
 
-    .products-grid {
-        grid-template-columns: 1fr;
-    }
+ 
 
     .exclusive-benefits-top {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    }
-
-    .exclusive-benefits-bottom {
-        grid-template-columns: 1fr;
-    }
-
-    .features-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .offer-features {
-        grid-template-columns: 1fr;
     }
 
     .offer-title {
@@ -1423,12 +1407,11 @@ body {
     }
 
     .footer-content {
-        grid-template-columns: 1fr;
         text-align: center;
     }
+}
 
-
-/*@media (max-width: 480px) {*/
+@media (max-width: 480px) {
     .hero-title {
         font-size: 2rem;
     }
@@ -1437,9 +1420,6 @@ body {
         font-size: 1.75rem;
     }
 
-    .benefits-grid {
-        grid-template-columns: 1fr;
-    }
 
     .benefit-card {
         padding: 1.5rem;
@@ -1460,7 +1440,7 @@ body {
     .offer-title {
         font-size: 1.75rem;
     }
-
+}
 
 /* Animações */
 @keyframes fadeInUp {
@@ -1834,19 +1814,17 @@ html {
 }
 
 /* Responsividade do Footer */
-/*@media (max-width: 768px) {*/
+@media (max-width: 768px) {
     .footer {
         padding: 3rem 0 1.5rem;
     }
     
     .footer-content {
-        grid-template-columns: 1fr;
         gap: 2rem;
         text-align: center;
     }
     
     .footer-links-section {
-        grid-template-columns: 1fr;
         gap: 2rem;
     }
     
@@ -1859,12 +1837,12 @@ html {
     .footer-social {
         justify-content: center;
     }
-
+}
 
 
 
 /* Responsive Design */
-/*@media (max-width: 768px) {*/
+@media (max-width: 768px) {
     .container {
         padding: 0 1rem;
     }
@@ -1924,27 +1902,22 @@ html {
     }
     
     .benefits-grid {
-        grid-template-columns: 1fr;
         gap: 1.5rem;
     }
     
     .exclusive-benefits-top {
-        grid-template-columns: 1fr;
         gap: 1.5rem;
     }
     
     .exclusive-benefits-bottom {
-        grid-template-columns: 1fr;
         gap: 2rem;
     }
     
     .catalog-grid {
-        grid-template-columns: 1fr;
         gap: 1.5rem;
     }
     
     .offer-features {
-        grid-template-columns: 1fr;
         gap: 1.5rem;
     }
     
@@ -1957,17 +1930,15 @@ html {
     }
     
     .products-grid {
-        grid-template-columns: 1fr;
         gap: 1.5rem;
     }
     
     .features-grid {
-        grid-template-columns: 1fr;
         gap: 1.5rem;
     }
+}
 
-
-/*@media (max-width: 480px) {*/
+@media (max-width: 480px) {
     .hero-title {
         font-size: 2rem;
     }
@@ -1995,7 +1966,7 @@ html {
     .exclusive-benefit, .offer-feature {
         padding: 1rem;
     }
-
+}
 
 /* Enhanced Animations */
 @keyframes fadeInUp {
@@ -2098,7 +2069,7 @@ html {
 }
 
 /* Print Styles */
-/*@media print {*/
+@media print {
     .header,
     .nav,
     .rolling-banner,
@@ -2115,7 +2086,7 @@ html {
     .section {
         page-break-inside: avoid;
     }
-
+}
 
 
 /* Testimonials Section */
@@ -2232,9 +2203,8 @@ html {
 }
 
 /* Responsive adjustments for testimonials */
-/*@media (max-width: 768px) {*/
+@media (max-width: 768px) {
     .testimonials-grid {
-        grid-template-columns: 1fr;
         gap: 1.5rem;
     }
     
@@ -2245,7 +2215,7 @@ html {
     .testimonial-text {
         font-size: 0.95rem;
     }
-
+}
 
 
 /* Banner Rotativo */
@@ -2286,7 +2256,7 @@ html {
 }
 
 /* Responsividade para o banner */
-/*@media (max-width: 768px) {*/
+@media (max-width: 768px) {
     .banner-content {
         font-size: 0.875rem;
     }
@@ -2294,7 +2264,7 @@ html {
     .banner-content span {
         margin-right: 2rem;
     }
-
+}
 
 .hero-title {
   font-size: 3rem;
