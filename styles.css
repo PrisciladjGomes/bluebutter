@@ -1410,9 +1410,9 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .features-grid {
+    /*.features-grid {
         grid-template-columns: 1fr;
-    }
+    }*/
 
     .offer-features {
         grid-template-columns: 1fr;
@@ -1962,7 +1962,7 @@ html {
     }
     
     .features-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 4fr;
         gap: 1.5rem;
     }
 }
