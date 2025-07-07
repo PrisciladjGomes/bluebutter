@@ -371,7 +371,7 @@ body {
 /* Segunda linha: cards 5-8 */
 
 /* Responsividade para tablets */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .benefits-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1428,7 +1428,7 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .hero-title {
         font-size: 2rem;
     }
@@ -1967,7 +1967,7 @@ html {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .hero-title {
         font-size: 2rem;
     }
